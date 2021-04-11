@@ -1,7 +1,4 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<!--
-Copyright (c) 2017, Oracle and/or its affiliates. All rights reserved.
--->
 <jpr:project xmlns:jpr="http://xmlns.oracle.com/ide/project">
    <value n="ADFComponentWizard.LAST_TAG_NS_PREF" v="oracle.apps.uikit.common.declarativeComponents"/>
    <value n="ADFComponentWizard.LAST_TAGLIB_URI_PREF" v="/appsCloudUIKitDCs"/>
@@ -9,40 +6,61 @@ Copyright (c) 2017, Oracle and/or its affiliates. All rights reserved.
       <value n="oracle.adfdt.controller.adfc.source.migration.AdfControllerSchemaMigrator" v="11.1.1.1.0"/>
       <value n="oracle.adfdt.controller.common.migrator.ProjectMigrator" v="11.1.1.1.0"/>
       <value n="oracle.adfdt.controller.jsf2.diagram.migrate.JsfNodeMigratorHelper" v="11.1.1.1.0"/>
+      <value n="oracle.adfdt.controller.migrate.TrinidadDatabindingsProjectMigrator" v="11.1.2.0.0"/>
       <value n="oracle.adfdt.controller.struts.addin.db.ADFStrutsProjectMigrator" v="11.1.1.1.0"/>
       <value n="oracle.adfdt.controller.struts.addin.StrutsProjectMigrator" v="11.1.1.1.0"/>
-      <value n="oracle.adfdtinternal.dvt.datapresdt.migration.DVTDataMapMigrator" v="11.1.1.1.0"/>
+      <value n="oracle.adfdtinternal.dvt.datapresdt.migration.DVTDataMapMigrator" v="11.1.1.1.0;11.1.1.1.0.3"/>
+      <value n="oracle.adfdtinternal.dvt.datapresdt.migration.DVTWebAppConfigurationMigrator" v="12.1.3.0.0"/>
       <value n="oracle.adfdtinternal.model.ide.migration.ProjectMigrator" v="11.1.1.1.0.11.1.1"/>
+      <value n="oracle.adfdtinternal.model.ide.placeholderdc.migrator.PlaceholderProjectMigrator" v="12.1.4.0.0"/>
       <value n="oracle.adfdtinternal.model.ide.security.wizard.FormPageMigrator" v="11.1.1.0.0"/>
       <value n="oracle.adfdtinternal.model.ide.security.wizard.JpsFilterMigrator" v="11.1.1.1.0"/>
       <value n="oracle.adfdtinternal.model.ide.xmled.migration.ADFNodeMigrator" v="11.1.1.1.0.5"/>
       <value n="oracle.adfdtinternal.model.ide.xmled.migration.PageDefinitionParameterValueMigrator" v="11.1.1.1.0.5"/>
+      <value n="oracle.adfdtinternal.model.ide.xmled.migration.RestDataControlMigrator" v="12.1.4.0.0"/>
       <value n="oracle.adfdtinternal.model.ide.xmled.migration.WebXmlMigrator" v="11.1.1.1.0"/>
       <value n="oracle.adfdtinternal.view.common.migration.wizards.MigrationHelper" v="11.1.1.1.0.3"/>
       <value n="oracle.adfdtinternal.view.rich.binding.migration.JarResourceMigrator" v="11.1.1.1.0"/>
       <value n="oracle.adfdtinternal.view.rich.migration.ComponentIdNodeMigratorHelper" v="11.1.1.1.0.01"/>
+      <value n="oracle.adfdtinternal.view.rich.migration.FacesLibraryVersionMigrator" v="11.1.1.1.0.1"/>
       <value n="oracle.adfdtinternal.view.rich.migration.LibraryVersionMigrator" v="11.1.1.1.0"/>
       <value n="oracle.bm.commonIde.ProjectUpgrader" v="11.1.1.1.0"/>
       <value n="oracle.bm.migration.project.MigratorRegistryProjectUpgradeAdapter" v="11.1.1.1.0"/>
-      <value n="oracle.ide.model.Project" v="11.1.1.1.0"/>
+      <value n="oracle.ide.model.Project" v="11.1.1.1.0;12.2.1.4.0"/>
       <value n="oracle.ide.model.ResourcePathsMigrator" v="11.1.1.1.0"/>
+      <value n="oracle.ideimpl.model.TechnologyScopeUpdateMigrator" v="11.1.2.0.0.6"/>
       <value n="oracle.jbo.dt.jclient.migrator.JCProjectMigrator" v="11.1.1.1.0"/>
-      <value n="oracle.jbo.dt.jdevx.deployment.JbdProjectMigrator" v="11.1.1.1.0"/>
+      <value n="oracle.jbo.dt.jdevx.deployment.JbdProjectMigrator" v="11.1.1.1.0;11.1.2.0.0"/>
+      <value n="oracle.jbo.dt.jdevx.ui.appnav.APAdfConfigMigrator" v="11.1.2.0.0"/>
       <value n="oracle.jbo.dt.jdevx.ui.appnav.APProjectMigrator" v="11.1.1.0.1.5"/>
       <value n="oracle.jbo.dt.migrate.ResourceBundlePathMigrator" v="11.1.1.1.0.5"/>
       <value n="oracle.jbo.dt.migration.ServiceInterfaceMigrator" v="11.1.1.1.0"/>
+      <value n="oracle.jdeveloper.dbmodeler.Migration" v="12.1.1.0.0"/>
       <value n="oracle.jdeveloper.ejb.EjbMigrator" v="11.1.1.1.0"/>
       <value n="oracle.jdeveloper.library.ProjectLibraryMigrator" v="11.1.1.1.0"/>
+      <value n="oracle.jdeveloper.maven.migrator.POMNodeMigrator" v="12.2.1.0.0"/>
       <value n="oracle.jdeveloper.model.OutputDirectoryMigrator" v="11.1.1.1.0"/>
       <value n="oracle.jdevimpl.deploy.DeploymentProfilesMigrator" v="11.1.1.1.0"/>
       <value n="oracle.jdevimpl.deploy.jps.JpsDataMigrator" v="11.1.1.1.0"/>
+      <value n="oracle.jdevimpl.deploy.migrators.DeploymentMigrator" v="12.1.2.0.1"/>
       <value n="oracle.jdevimpl.jsp.JspMigrator" v="11.1.1"/>
-      <value n="oracle.jdevimpl.offlinedb.migration.OfflineDBProjectMigrator" v="11.1.1.1.0"/>
+      <value n="oracle.jdevimpl.offlinedb.migration.OfflineDBProjectMigrator" v="11.1.1.1.0;12.1.1.0.0"/>
       <value n="oracle.jdevimpl.offlinedb.migration.OfflineTransferMigrator" v="11.1.1.1.0"/>
+      <value n="oracle.jdevimpl.offlinedb.migration.SXMLOfflineDBProjectMigrator" v="12.1.4.0.0"/>
       <value n="oracle.jdevimpl.resourcebundle.XliffAddin$XliffMigratorHelper" v="11.1.1.1.0"/>
-      <value n="oracle.jdevimpl.webapp.jsp.libraries.JspLibraryMigrator" v="11.1.1.1.4"/>
+      <value n="oracle.jdevimpl.webapp.facelets.libraries.FaceletsLibraryMigrator" v="12.2.1.0.0"/>
+      <value n="oracle.jdevimpl.webapp.jsp.libraries.JspLibraryMigrator" v="11.1.1.1.4;12.1.4.0.0"/>
+      <value n="oracle.jdevimpl.webapp.jsp.taglibraries.trinidad.migration.TrinidadLibraryVersionMigrator" v="11.1.1.1.0.1"/>
       <value n="oracle.jdevimpl.webapp.WebAppContentSetNodeMigratorHelper" v="11.1.1"/>
       <value n="oracle.jdevimpl.webapp.WebAppNodeMigratorHelper" v="11.1.1.1.0"/>
+      <value n="oracle.jdevimpl.webapp.WebAppProjectNodeMigratorHelper" v="12.2.1.0.0"/>
+      <value n="oracle.jdevimpl.webservices.rest.migration.RestAppClassMigrator" v="12.1.3.0.0"/>
+      <value n="oracle.jdevimpl.webservices.rest.migration.RestJerseyLibMigrator" v="12.1.3.0.0"/>
+      <value n="oracle.jdevimpl.webservices.rest.migration.RestLibraryMigrator" v="12.1.1.0.0"/>
+      <value n="oracle.jdevimpl.webservices.rest.migration.RestOwsmPolicyMigrator" v="12.1.3.0.0"/>
+      <value n="oracle.jdevimpl.webservices.rest.migration.RestPathMigrator" v="11.1.2.0.0"/>
+      <value n="oracle.jdevimpl.webservices.rest.migration.RestWebAppMigrator" v="12.1.3.0.0"/>
+      <value n="oracle.jdevimpl.webservices.rest.migration.RestWeblogicWebAppMigrator" v="12.1.3.0.0"/>
       <value n="oracle.jdevimpl.webservices.WebServicesMigratorHelper" v="11.1.1.1.0"/>
       <value n="oracle.jdevimpl.xml.wl.WeblogicMigratorHelper" v="11.1.1.1.0"/>
       <value n="oracle.modeler.bmmigrate.management.Migration" v="11.1.1.1.0"/>
@@ -58,14 +76,18 @@ Copyright (c) 2017, Oracle and/or its affiliates. All rights reserved.
       <string v="oracle.mds.internal.dt.ide.MDSLibraryCustCSProvider/mdsContentSet"/>
       <string v="oracle.adfdtinternal.model.ide.settings.ADFMSettings/adfmContentSet"/>
       <string v="oracle.toplink.workbench.addin/toplinkContentSet"/>
+      <string v="oracle.mds.internal.dt.ide.MDSADFLibVirtualNodeCSProvider/mdsLibVirtualNodeContentSet"/>
    </list>
    <value n="defaultPackage" v="oracle.apps.uikit.common"/>
    <hash n="oracle.ide.model.TechnologyScopeConfiguration">
       <list n="technologyScope">
+         <string v="ADFm"/>
          <string v="HTML"/>
+         <string v="JAVASCRIPT"/>
          <string v="Java"/>
          <string v="JSP"/>
          <string v="ADFc"/>
+         <string v="TRINIDAD"/>
          <string v="XML"/>
          <string v="JSF"/>
          <string v="ADF_FACES"/>
@@ -108,7 +130,12 @@ Copyright (c) 2017, Oracle and/or its affiliates. All rights reserved.
                      </list>
                      <value n="displayName" v="Project Output"/>
                      <hash n="filters">
-                        <list n="rules"/>
+                        <list n="rules">
+                           <hash>
+                              <value n="pattern" v="**"/>
+                              <value n="type" v="0"/>
+                           </hash>
+                        </list>
                      </hash>
                      <value n="internalName" v="project-output"/>
                      <value n="type" v="1"/>
@@ -116,9 +143,7 @@ Copyright (c) 2017, Oracle and/or its affiliates. All rights reserved.
                </list>
             </hash>
             <url n="jarURL" path="../libs/adflibUIKitCommon.jar"/>
-            <hash n="libraryDependencies">
-               <value n="IncludeLibrariesFromOtherContainers" v="true"/>
-            </hash>
+            <hash n="libraryDependencies"/>
             <hash n="LibraryDependencies"/>
             <value n="profileClass" v="oracle.adfdt.common.deploy.impl.AdfLibraryProfile"/>
             <value n="profileName" v="adflibUIKitCommon"/>
@@ -194,10 +219,6 @@ Copyright (c) 2017, Oracle and/or its affiliates. All rights reserved.
             <value n="isJDK" v="false"/>
          </hash>
          <hash>
-            <value n="id" v="JSF 1.2"/>
-            <value n="isJDK" v="false"/>
-         </hash>
-         <hash>
             <value n="id" v="JSTL 1.2"/>
             <value n="isJDK" v="false"/>
          </hash>
@@ -235,6 +256,14 @@ Copyright (c) 2017, Oracle and/or its affiliates. All rights reserved.
          </hash>
          <hash>
             <value n="id" v="Trinidad Runtime 11"/>
+            <value n="isJDK" v="false"/>
+         </hash>
+         <hash>
+            <value n="id" v="JSF 2.2"/>
+            <value n="isJDK" v="false"/>
+         </hash>
+         <hash>
+            <value n="id" v="Apache Http Components"/>
             <value n="isJDK" v="false"/>
          </hash>
       </list>
@@ -288,10 +317,6 @@ Copyright (c) 2017, Oracle and/or its affiliates. All rights reserved.
             <value n="isJDK" v="false"/>
          </hash>
          <hash>
-            <value n="id" v="JSF 1.2"/>
-            <value n="isJDK" v="false"/>
-         </hash>
-         <hash>
             <value n="id" v="JSTL 1.2"/>
             <value n="isJDK" v="false"/>
          </hash>
@@ -331,6 +356,14 @@ Copyright (c) 2017, Oracle and/or its affiliates. All rights reserved.
             <value n="id" v="Trinidad Runtime 11"/>
             <value n="isJDK" v="false"/>
          </hash>
+         <hash>
+            <value n="id" v="JSF 2.2"/>
+            <value n="isJDK" v="false"/>
+         </hash>
+         <hash>
+            <value n="id" v="Apache Http Components"/>
+            <value n="isJDK" v="false"/>
+         </hash>
       </list>
    </hash>
    <hash n="oracle.jdevimpl.config.JProjectPaths">
@@ -340,36 +373,36 @@ Copyright (c) 2017, Oracle and/or its affiliates. All rights reserved.
       <list n="tag-libraries">
          <hash>
             <hash n="baseLibrary">
+               <value n="name" v="JSF Core"/>
+               <value n="version" v="2.2"/>
+            </hash>
+            <value n="jspVersion" v="2.1"/>
+            <value n="name" v="JSF Core"/>
+            <value n="tldURL" v="@oracle.home@../oracle_common/modules/oracle.jsf/glassfish.jsf.jar!/META-INF/jsf_core.tld"/>
+            <value n="URI" v="http://java.sun.com/jsf/core"/>
+            <value n="version" v="2.2"/>
+         </hash>
+         <hash>
+            <hash n="baseLibrary">
+               <value n="name" v="JSF HTML"/>
+               <value n="version" v="2.2"/>
+            </hash>
+            <value n="jspVersion" v="2.1"/>
+            <value n="name" v="JSF HTML"/>
+            <value n="tldURL" v="@oracle.home@../oracle_common/modules/oracle.jsf/glassfish.jsf.jar!/META-INF/html_basic.tld"/>
+            <value n="URI" v="http://java.sun.com/jsf/html"/>
+            <value n="version" v="2.2"/>
+         </hash>
+         <hash>
+            <hash n="baseLibrary">
                <value n="name" v="ADF Faces Components"/>
                <value n="version" v="11"/>
             </hash>
             <value n="jspVersion" v="1.2"/>
             <value n="name" v="ADF Faces Components"/>
-            <value n="tldURL" v="@oracle.home@../oracle_common/modules/oracle.adf.view_11.1.1/adf-richclient-impl-11.jar!/META-INF/afu.tld"/>
+            <value n="tldURL" v="@oracle.home@../oracle_common/modules/oracle.adf.view/adf-richclient-impl-11.jar!/META-INF/afu.tld"/>
             <value n="URI" v="http://xmlns.oracle.com/adf/faces/rich"/>
             <value n="version" v="11"/>
-         </hash>
-         <hash>
-            <hash n="baseLibrary">
-               <value n="name" v="JSF Core"/>
-               <value n="version" v="1.2"/>
-            </hash>
-            <value n="jspVersion" v="2.1"/>
-            <value n="name" v="JSF Core"/>
-            <value n="tldURL" v="@oracle.home@../oracle_common/modules/oracle.jsf_1.2.9/glassfish.jsf_1.0.0.0_1-2-15.jar!/META-INF/jsf_core.tld"/>
-            <value n="URI" v="http://java.sun.com/jsf/core"/>
-            <value n="version" v="1.2"/>
-         </hash>
-         <hash>
-            <hash n="baseLibrary">
-               <value n="name" v="JSF HTML"/>
-               <value n="version" v="1.2"/>
-            </hash>
-            <value n="jspVersion" v="2.1"/>
-            <value n="name" v="JSF HTML"/>
-            <value n="tldURL" v="@oracle.home@../oracle_common/modules/oracle.jsf_1.2.9/glassfish.jsf_1.0.0.0_1-2-15.jar!/META-INF/html_basic.tld"/>
-            <value n="URI" v="http://java.sun.com/jsf/html"/>
-            <value n="version" v="1.2"/>
          </hash>
          <hash>
             <hash n="baseLibrary">
@@ -378,7 +411,7 @@ Copyright (c) 2017, Oracle and/or its affiliates. All rights reserved.
             </hash>
             <value n="jspVersion" v="2.1"/>
             <value n="name" v="ADF Data Visualization"/>
-            <value n="tldURL" v="@oracle.home@../oracle_common/modules/oracle.adf.view_11.1.1/dvt-faces.jar!/META-INF/bi.tld"/>
+            <value n="tldURL" v="@oracle.home@../oracle_common/modules/oracle.adf.view/dvt-faces.jar!/META-INF/bi.tld"/>
             <value n="URI" v="http://xmlns.oracle.com/dss/adf/faces"/>
             <value n="version" v="1.1"/>
          </hash>
@@ -389,8 +422,7 @@ Copyright (c) 2017, Oracle and/or its affiliates. All rights reserved.
             </hash>
             <value n="jspVersion" v="2.1"/>
             <value n="name" v="JSTL Core"/>
-            <value n="runInEditor" v="true"/>
-            <value n="tldURL" v="@oracle.home@../modules/glassfish.jstl_1.2.0.1.jar!/META-INF/c.tld"/>
+            <value n="tldURL" v="@oracle.home@../wlserver/modules/org.glassfish.web.javax.servlet.jsp.jstl.jar!/META-INF/c.tld"/>
             <value n="URI" v="http://java.sun.com/jsp/jstl/core"/>
             <value n="version" v="1.2"/>
          </hash>
@@ -401,7 +433,7 @@ Copyright (c) 2017, Oracle and/or its affiliates. All rights reserved.
             </hash>
             <value n="jspVersion" v="2.1"/>
             <value n="name" v="JSTL Format"/>
-            <value n="tldURL" v="@oracle.home@../modules/glassfish.jstl_1.2.0.1.jar!/META-INF/fmt.tld"/>
+            <value n="tldURL" v="@oracle.home@../wlserver/modules/org.glassfish.web.javax.servlet.jsp.jstl.jar!/META-INF/fmt.tld"/>
             <value n="URI" v="http://java.sun.com/jsp/jstl/fmt"/>
             <value n="version" v="1.2"/>
          </hash>
@@ -412,7 +444,7 @@ Copyright (c) 2017, Oracle and/or its affiliates. All rights reserved.
             </hash>
             <value n="jspVersion" v="2.1"/>
             <value n="name" v="JSTL SQL"/>
-            <value n="tldURL" v="@oracle.home@../modules/glassfish.jstl_1.2.0.1.jar!/META-INF/sql.tld"/>
+            <value n="tldURL" v="@oracle.home@../wlserver/modules/org.glassfish.web.javax.servlet.jsp.jstl.jar!/META-INF/sql.tld"/>
             <value n="URI" v="http://java.sun.com/jsp/jstl/sql"/>
             <value n="version" v="1.2"/>
          </hash>
@@ -423,7 +455,7 @@ Copyright (c) 2017, Oracle and/or its affiliates. All rights reserved.
             </hash>
             <value n="jspVersion" v="2.1"/>
             <value n="name" v="JSTL XML"/>
-            <value n="tldURL" v="@oracle.home@../modules/glassfish.jstl_1.2.0.1.jar!/META-INF/x.tld"/>
+            <value n="tldURL" v="@oracle.home@../wlserver/modules/org.glassfish.web.javax.servlet.jsp.jstl.jar!/META-INF/x.tld"/>
             <value n="URI" v="http://java.sun.com/jsp/jstl/xml"/>
             <value n="version" v="1.2"/>
          </hash>
@@ -434,7 +466,7 @@ Copyright (c) 2017, Oracle and/or its affiliates. All rights reserved.
             </hash>
             <value n="jspVersion" v="2.1"/>
             <value n="name" v="JSTL Functions"/>
-            <value n="tldURL" v="@oracle.home@../modules/glassfish.jstl_1.2.0.1.jar!/META-INF/fn.tld"/>
+            <value n="tldURL" v="@oracle.home@../wlserver/modules/org.glassfish.web.javax.servlet.jsp.jstl.jar!/META-INF/fn.tld"/>
             <value n="URI" v="http://java.sun.com/jsp/jstl/functions"/>
             <value n="version" v="1.2"/>
          </hash>
@@ -445,7 +477,7 @@ Copyright (c) 2017, Oracle and/or its affiliates. All rights reserved.
             </hash>
             <value n="jspVersion" v="2.1"/>
             <value n="name" v="JSTL Permitted Taglibs"/>
-            <value n="tldURL" v="@oracle.home@../modules/glassfish.jstl_1.2.0.1.jar!/META-INF/permittedTaglibs.tld"/>
+            <value n="tldURL" v="@oracle.home@../wlserver/modules/org.glassfish.web.javax.servlet.jsp.jstl.jar!/META-INF/permittedTaglibs.tld"/>
             <value n="URI" v="http://jakarta.apache.org/taglibs/standard/permittedTaglibs"/>
             <value n="version" v="1.2"/>
          </hash>
@@ -456,31 +488,31 @@ Copyright (c) 2017, Oracle and/or its affiliates. All rights reserved.
             </hash>
             <value n="jspVersion" v="2.1"/>
             <value n="name" v="JSTL Script Free"/>
-            <value n="tldURL" v="@oracle.home@../modules/glassfish.jstl_1.2.0.1.jar!/META-INF/scriptfree.tld"/>
+            <value n="tldURL" v="@oracle.home@../wlserver/modules/org.glassfish.web.javax.servlet.jsp.jstl.jar!/META-INF/scriptfree.tld"/>
             <value n="URI" v="http://jakarta.apache.org/taglibs/standard/scriptfree"/>
             <value n="version" v="1.2"/>
          </hash>
          <hash>
             <hash n="baseLibrary">
                <value n="name" v="Trinidad Components"/>
-               <value n="version" v="1.2"/>
+               <value n="version" v="2.0"/>
             </hash>
             <value n="jspVersion" v="1.2"/>
             <value n="name" v="Trinidad Components"/>
-            <value n="tldURL" v="@oracle.home@../oracle_common/modules/oracle.adf.view_11.1.1/trinidad-impl.jar!/META-INF/tr.tld"/>
+            <value n="tldURL" v="@oracle.home@../oracle_common/modules/oracle.adf.view/trinidad-impl.jar!/META-INF/tr.tld"/>
             <value n="URI" v="http://myfaces.apache.org/trinidad"/>
-            <value n="version" v="1.2"/>
+            <value n="version" v="2.0"/>
          </hash>
          <hash>
             <hash n="baseLibrary">
                <value n="name" v="Trinidad HTML Components"/>
-               <value n="version" v="1.2"/>
+               <value n="version" v="2.0"/>
             </hash>
             <value n="jspVersion" v="1.2"/>
             <value n="name" v="Trinidad HTML Components"/>
-            <value n="tldURL" v="@oracle.home@../oracle_common/modules/oracle.adf.view_11.1.1/trinidad-impl.jar!/META-INF/trh.tld"/>
+            <value n="tldURL" v="@oracle.home@../oracle_common/modules/oracle.adf.view/trinidad-impl.jar!/META-INF/trh.tld"/>
             <value n="URI" v="http://myfaces.apache.org/trinidad/html"/>
-            <value n="version" v="1.2"/>
+            <value n="version" v="2.0"/>
          </hash>
       </list>
    </hash>
